@@ -15,6 +15,8 @@ gem 'font-awesome-sass'
 gem 'execjs'
 gem 'devise', '~> 3.5', '>= 3.5.2'
 gem 'protected_attributes'
+gem 'haml', '~> 4.0.6'
+gem 'simple_form', '~> 3.2', '>= 3.2.1'
 group :production do
   gem 'pg', '0.15.1'
   gem 'rails_12factor', '0.0.2'
